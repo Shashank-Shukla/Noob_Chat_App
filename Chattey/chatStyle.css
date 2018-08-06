@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda|Pacifico');
+body{
+    /*z-index: -2;*/
+    filter: opacity(65%);
+    position: relative;
+    background: url(https://gfxf.net/images/2014/11/16/miley_cyrus_bangerz_floor_blank_hd_by_ecish-d6tuhye.png) no-repeat center center fixed;
+    background-size: cover;
+}
+#wrapper{
+    width: 80%;
+    margin: 15px auto;
+    /*margin-top: 10%;*/
+    background-color: aquamarine;
+}
+.chatwrapper{
+    width: 60%;
+    margin: 12px auto;
+    padding: 0.4em;
+    border-radius: 5px;
+    background-color: forestgreen;
+}
+.txt{
+    border-radius: 5px 20px;
+    width: 96%;
+    height: 50px;
+    border: 2px solid blue;
+    outline: none;
+    padding: 8px;
+}
+.container img{
+    height: 3.8em;
+    float: left;
+    border-radius: 20%;
+    margin: 0% 3%;
+}
+.container ul{
+    margin-right: 5%;
+}
+.container ul li{
+    display: inline-block;
+    padding: 10px;
+    float: right;
+    margin-top: 8px;
+}
+.container ul li:hover{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    transition: font-size 0.5s, text-decoration 0.3s;
+}
+.chat{
+    min-height: 500px;
+    border: 2px solid red;
+    padding: 8px;
+    
+}
+#foter{
+    background: #48474f;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
